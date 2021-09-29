@@ -4,18 +4,18 @@ namespace MicroIoC
 {
     public interface IMicroContainer
     {
-        void RegisterTransient(Type ltype, Type rtype);
+        void RegisterTransient(Type ltype, Type rtype, string name = null);
 
-        void RegisterTransient<TLeft, TRight>();
+        void RegisterTransient<TLeft, TRight>(string name = null);
 
-        void RegisterSingleton(Type ltype, Type rtype);
+        void RegisterSingleton(Type ltype, Type rtype, string name = null);
 
-        void RegisterSingleton<TLeft, TRight>();
+        void RegisterSingleton<TLeft, TRight>(string name = null);
 
-        object Get(Type ltype);
+        object Get(Type ltype, string name = null);
 
-        TLeft Get<TLeft>();
+        TLeft Get<TLeft>(string name = null);
 
-        bool IsRegistered(Type ltype);
+        bool IsRegistered(Type ltype, string name = null);
     }
 }

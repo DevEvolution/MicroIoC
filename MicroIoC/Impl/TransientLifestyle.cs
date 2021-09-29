@@ -15,7 +15,7 @@ namespace MicroIoC.Impl
 
         public override object GetInstance(params Type[] genericParameterTypes)
         {
-            return Activator.CreateInstance(this.type); // new
+            return this.CreateInstance(this.type, genericParameterTypes); // new
         }
     }
 }
