@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroIoC", "MicroIoC\MicroIoC.csproj", "{F7F13CA0-E28B-49A8-B67E-74A7D0BBF3F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{90DE4252-02AD-40C4-B2CD-182FC5C5FA85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{230B5952-8EBD-4DF2-A1A4-9D3D0B679002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestContainer", "TestContainer\TestContainer.csproj", "{EC8B600B-00E7-4E43-989F-593AC534FD00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7F13CA0-E28B-49A8-B67E-74A7D0BBF3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F13CA0-E28B-49A8-B67E-74A7D0BBF3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F13CA0-E28B-49A8-B67E-74A7D0BBF3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F13CA0-E28B-49A8-B67E-74A7D0BBF3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8B600B-00E7-4E43-989F-593AC534FD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8B600B-00E7-4E43-989F-593AC534FD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8B600B-00E7-4E43-989F-593AC534FD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8B600B-00E7-4E43-989F-593AC534FD00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7F13CA0-E28B-49A8-B67E-74A7D0BBF3F1} = {230B5952-8EBD-4DF2-A1A4-9D3D0B679002}
+		{EC8B600B-00E7-4E43-989F-593AC534FD00} = {90DE4252-02AD-40C4-B2CD-182FC5C5FA85}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D3033AB-A3F6-4DFA-B49C-8F899FED3564}
+	EndGlobalSection
+EndGlobal
